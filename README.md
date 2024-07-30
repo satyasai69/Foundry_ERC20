@@ -24,14 +24,12 @@ OurToken is a standard ERC20 token built on the Ethereum blockchain. It uses Ope
 ```
  git clone https://github.com/satyasai69/Foundry_ERC20.git
  cd Foundry_ERC20
-
 ```
 
 2. Install dependencies:
 
    ```
    forge install OpenZeppelin/openzeppelin-contracts@v5.0.2 --no-commit
-
    ```
 
 ## Contract
@@ -56,9 +54,7 @@ Testing
 Tests are written using Foundry and can be found in test/OurTokenTest.t.sol. To run the tests:
 
 ```
-
 forge test
-
 ```
 
 The test suite covers:
@@ -80,9 +76,7 @@ PRIVATE_KEY=your_private_key
 Run the deployment script:
 
 ```
-
 forge script script/DeployOurToken.s.sol:DeployOurToken --rpc-url $RPC_URL --private-key $PRIVATE_KEY --broadcast
-
 ```
 
 Contributing
