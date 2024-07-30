@@ -22,8 +22,9 @@ OurToken is a standard ERC20 token built on the Ethereum blockchain. It uses Ope
 1. Clone the repository:
 
 ```
- git clone https://github.com/satyasai69/FOUNDRY_ERC20.git
- cd FOUNDRY_ERC20
+ git clone https://github.com/satyasai69/Foundry_ERC20.git
+ cd Foundry_ERC20
+
 ```
 
 2. Install dependencies:
@@ -48,13 +49,18 @@ contract OurToken is ERC20 {
      _mint(msg.sender, initialSupply);
  }
 }
+
+```
+
 Testing
 Tests are written using Foundry and can be found in test/OurTokenTest.t.sol. To run the tests:
+
 ```
 
 forge test
 
 ```
+
 The test suite covers:
 
 Initial supply
@@ -68,9 +74,8 @@ To deploy the contract using Foundry:
 
 Set up your environment variables:
 
-
- RPC_URL=your_rpc_url
- PRIVATE_KEY=your_private_key
+RPC_URL=your_rpc_url
+PRIVATE_KEY=your_private_key
 
 Run the deployment script:
 
@@ -79,7 +84,6 @@ Run the deployment script:
 forge script script/DeployOurToken.s.sol:DeployOurToken --rpc-url $RPC_URL --private-key $PRIVATE_KEY --broadcast
 
 ```
-
 
 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -94,4 +98,3 @@ Copy
 This README provides an overview of the project, instructions for installation and testing, a brief explanation of the contract, deployment instructions, and sections for contributing and licensing. You may want to adjust some details, such as the GitHub repository URL, to match your specific project setup.
 
 Would you like me to elaborate on any part of this README or add any additional sections?
-```
