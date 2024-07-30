@@ -70,8 +70,10 @@ To deploy the contract using Foundry:
 
 Set up your environment variables:
 
+```
 RPC_URL=your_rpc_url
 PRIVATE_KEY=your_private_key
+```
 
 Run the deployment script:
 
